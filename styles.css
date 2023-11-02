@@ -1,0 +1,156 @@
+.body{
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.375;
+}
+
+.page-header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 147px;
+}
+
+.page-header::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(222, 222, 222, 0.5);
+  @supports (backdrop-filter: blur(10px)){
+    backdrop-filter: blur(10px);
+    background-color: rgba(222, 222, 222, 0.5);
+  }
+}
+
+.page-header__container{
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin: 0 50px;
+  max-width: 1414px;
+  width: 100%;
+}
+
+.page-header__logo{
+  width: 202px;
+  height: 147px;
+  flex-shrink: 0;
+  margin-right: 237px;
+}
+
+.page-header__logo-img{
+  width: 100%;
+  height: 100%;
+}
+
+.page-header__nav {
+  display: inline-flex;
+  margin-right: 307px;
+  justify-items: center;
+  align-items: center;
+}
+
+.page-header__container {
+  box-sizing: border-box;
+  display: online-block;
+  text-align: center;
+}
+
+.page-header__nav-link {
+  box-sizing: border-box;
+  display: inline-block;
+  margin: 0 25px;
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+  text-decoration: none;
+  color: var(--1, #1F1E1E);
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  line-height: normal;
+}
+
+.page-header__user-btn {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 15px 40px;
+  background-color: transparent;
+  border: 1px solid #1f1e1e;
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 600;
+  color: #1f1e1e;
+}
+
+
+.home{
+  padding-top: 147px;
+}
+
+.main-header{
+  padding: 100px 0;
+}
+
+.main-header__title,
+.main-header__text{
+  padding-left: 40px;
+  padding-right: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Lora", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: normal;
+  color: #1f1e1e;
+}
+
+.main-header__text{
+  margin: 0 auto;
+  max-width: 948px;
+  width: 100%;
+}
+
+.main-header__title{
+  margin: 0 0 70px;
+}
+
+.main-header__picture{
+  display: block;
+  margin-bottom: 70px;
+  position: relative;
+  width: 100%;
+}
+
+.main-header__picture::before{
+  content: '';
+  display: block;
+  width: 100%;
+  padding-top: 16.927%;
+}
+
+.main-header__img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.main-header__text{
+  margin: 0 auto;
+  max-width: 948px;
+  width: 100%;
+}
+
+.page-footer{
+
+}
